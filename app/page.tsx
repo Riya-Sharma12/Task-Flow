@@ -1,10 +1,12 @@
+import { CurrentDate } from './CurrentDate';
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-background text-foreground grid-paper">
       <header className="brutal-border border-l-0 border-r-0 border-t-0 bg-ink text-paper">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3 font-mono text-[11px] uppercase tracking-[0.2em]">
           <span>Vol. 01 · Edition Daily</span>
-          <span className="hidden md:block">{new Date().toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' })}</span>
+          <CurrentDate />
           <a href="/auth?tab=signin" className="underline underline-offset-4 transition-colors hover:text-lime">Enter →</a>
         </div>
       </header>
