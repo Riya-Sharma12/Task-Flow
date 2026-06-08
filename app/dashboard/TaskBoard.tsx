@@ -211,7 +211,7 @@ export default function TaskBoard({ email }: { email: string; userId: string }) 
             <h1 className="font-display text-7xl md:text-8xl leading-[0.9]">Today&rsquo;s <em>ledger.</em></h1>
           </div>
           <p className="font-display text-xl italic text-muted-foreground max-w-xs md:text-right leading-snug">
-            "The shortest pencil beats the longest memory."
+            &ldquo;The shortest pencil beats the longest memory.&rdquo;
           </p>
         </div>
 
