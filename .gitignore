@@ -1,0 +1,7 @@
+node_modules
+.next
+out
+.users.json
+.tasks.json
+.env.local
+.env
