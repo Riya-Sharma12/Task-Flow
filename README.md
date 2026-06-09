@@ -6,7 +6,7 @@ A brutalist/newspaper-aesthetic task management application built with Next.js 1
 
 ## Live Demo
 
-Deployed on Vercel — [https://task-flow-riya.vercel.app](https://task-flow-riya.vercel.app) *(update this link after deploy)*
+Deployed on Vercel — [https://indexcard-app.vercel.app/](https://indexcard-app.vercel.app/) 
 
 ---
 
